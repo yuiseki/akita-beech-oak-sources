@@ -1,0 +1,120 @@
+{
+ "name": "biodic_veg2024",
+ "title": "現存植生図2024",
+ "license_title": "公共データ利用規約（第1.0版)",
+ "license_id": "public-data-license-v1.0",
+ "license_url": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+ "metadata_created": "2026-01-23T02:44:46.804595",
+ "metadata_modified": "2026-08-27T05:04:03.191163",
+ "author": "生物多様性センター",
+ "maintainer": "生物多様性センター",
+ "notes": "環境省生物多様性センターから公開する現存植生図2024データです。<br>\r\n今後のデータ公開促進のため、[アンケート](https://survey123.arcgis.com/share/5e4d83076bcb486095c9ff596dfbb16e?portalUrl=https://pl-moej.gisservice.jp/arcgis) にご協力いただけると幸いです。\r\n\r\n名称：現存植生図2024  <br>\r\n調査年度：2000-2023（事業年度:1999-2024）  <br>\r\n座標参照系：JGD2011（EPSG:6668）  <br>\r\n文字コード：UTF-8  <br>\r\nデータ形式：GeoPackage  <br>\r\nデータ形状：Polygon  <br>\r\n属性情報：  <br>\r\n  - fid：日本全域ポリゴンの通し固有ID  <br>\r\n  - 植生区分コード：植生区分のコード（I-X）  <br>\r\n  - 大区分コード：大区分のコード番号（2桁）  <br>\r\n  - 中区分コード：中区分のコード番号（2桁）  <br>\r\n  - 細区分コード：細区分のコード番号（2桁）  <br>\r\n  - 凡例コード：凡例のコード番号（大区分/中区分/細区分 各2桁の計6桁で構成）  <br>\r\n  - 凡例名：植物社会学的群落分類による群集または群集レベルの群落名（計876凡例）  <br>\r\n  - 植生自然度：植生に対する人為的影響の度合いを10の類型に区分した指標  <br>\r\n  - 植生自然度区分：植生自然度10区分の名称  <br>\r\n  - 植生区分：植物群落を大別した10区分の名称  <br>\r\n  - 作成年度：当該地ごとの作成年度（西暦）  <br>\r\n  - 地域ブロック：1北海道・2東北・3関東・4北陸・5中部・6近畿・7中四国・8九州沖縄  <br>\r\n\r\n参考：[現存植生図2024情報解説サイト](https://pl-moej.gisservice.jp/arcgis/apps/storymaps/stories/a366ce0b9e674e46872baac1ab34eb13)",
+ "id": "a29def39-8ac8-48d8-8d81-f9504ae0ff71",
+ "organization": "生物多様性センター",
+ "resources": [
+  {
+   "name": "現存植生図2024スタイル設定ファイル",
+   "format": "qml",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/9e9f1df1-a65e-434c-9024-839acad5bb92/download/veg2024style.qml",
+   "size": 4946586,
+   "last_modified": "2026-01-23T08:06:09.888656",
+   "created": "2026-01-23T08:06:09.991527"
+  },
+  {
+   "name": "現存植生図2024北海道ブロックa",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/0df79056-7501-4d4c-9aac-1f64f7ea2c6f/download/veg2024bk1a.gpkg",
+   "size": 630595584,
+   "last_modified": "2026-04-14T10:04:36.218190",
+   "created": "2026-01-23T02:53:31.494072"
+  },
+  {
+   "name": "現存植生図2024北海道ブロックb",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/875f78de-c292-4a4d-9439-c272b5a6991c/download/veg2024bk1b.gpkg",
+   "size": 649719808,
+   "last_modified": "2026-04-14T10:08:24.776292",
+   "created": "2026-01-23T02:58:14.667316"
+  },
+  {
+   "name": "現存植生図2024東北ブロックa",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/80cea7b5-8788-4562-a6a1-fe3b879a533d/download/veg2024bk2a.gpkg",
+   "size": 947036160,
+   "last_modified": "2026-04-14T10:59:34.613606",
+   "created": "2026-01-23T03:05:31.725699"
+  },
+  {
+   "name": "現存植生図2024東北ブロックb",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/820e1614-2d0d-4470-9cbe-e3a626ce4fa2/download/veg2024bk2b.gpkg",
+   "size": 975659008,
+   "last_modified": "2026-04-14T11:58:31.515896",
+   "created": "2026-01-23T04:26:12.548665"
+  },
+  {
+   "name": "現存植生図2024関東ブロック",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/3be59af1-7c1e-4ede-822c-0021137427a7/download/veg2024bk3.gpkg",
+   "size": 705327104,
+   "last_modified": "2026-04-14T12:09:09.317869",
+   "created": "2026-01-23T04:48:35.080868"
+  },
+  {
+   "name": "現存植生図2024北陸ブロック",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/8068020a-9f57-4545-82d0-971b29734dee/download/veg2024bk4.gpkg",
+   "size": 557056000,
+   "last_modified": "2026-04-14T12:30:33.013393",
+   "created": "2026-01-23T04:54:56.278780"
+  },
+  {
+   "name": "現存植生図2024中部ブロック",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/28e3bf50-76a9-46db-b11f-85a159991941/download/veg2024bk5.gpkg",
+   "size": 918118400,
+   "last_modified": "2026-04-14T13:14:15.386833",
+   "created": "2026-01-23T05:06:55.489824"
+  },
+  {
+   "name": "現存植生図2024近畿ブロック",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/5a0fdf88-c13b-4aab-855b-c0950ae5a3cf/download/veg2024bk6.gpkg",
+   "size": 716120064,
+   "last_modified": "2026-04-14T13:44:59.114085",
+   "created": "2026-01-23T05:35:15.107073"
+  },
+  {
+   "name": "現存植生図2024中四国ブロックa",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/b731d016-7842-4ff3-bcfc-77193fc535f9/download/veg2024bk7a.gpkg",
+   "size": 822579200,
+   "last_modified": "2026-04-14T13:51:43.531668",
+   "created": "2026-01-23T05:44:58.735056"
+  },
+  {
+   "name": "現存植生図2024中四国ブロックb",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/9d87bac0-5da2-447e-9ee0-265ff78d9474/download/veg2024bk7b.gpkg",
+   "size": 799137792,
+   "last_modified": "2026-04-14T14:05:55.208066",
+   "created": "2026-01-23T05:51:17.547805"
+  },
+  {
+   "name": " 現存植生図2024九州沖縄ブロックa",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/f4c7bb6e-a46b-4777-9c63-e25874f7a754/download/veg2024bk8a.gpkg",
+   "size": 699875328,
+   "last_modified": "2026-04-14T14:23:57.627492",
+   "created": "2026-01-23T06:01:54.460212"
+  },
+  {
+   "name": "現存植生図2024九州沖縄ブロックb",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/a29def39-8ac8-48d8-8d81-f9504ae0ff71/resource/36b3cd1d-224f-4b56-a81e-22c4c6d15b01/download/veg2024bk8b.gpkg",
+   "size": 422498304,
+   "last_modified": "2026-04-14T14:33:00.237922",
+   "created": "2026-01-23T06:08:41.014096"
+  }
+ ]
+}

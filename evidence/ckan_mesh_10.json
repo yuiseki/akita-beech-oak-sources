@@ -1,0 +1,1984 @@
+{
+ "name": "mesh_10",
+ "title": "全国森林資源メッシュ（平面直角座標系Ⅹ(10)系適用区域）",
+ "license_title": "政府標準利用規約",
+ "license_id": "ogl",
+ "license_url": null,
+ "metadata_created": "2025-12-03T07:10:29.984005",
+ "metadata_modified": "2026-07-27T06:39:32.715488",
+ "author": "林野庁森林整備部計画課全国森林計画班",
+ "maintainer": "-",
+ "notes": "国有林野の管理経営に関する法律（昭和26年法律第246号）第２条第１項に定める国有林野（以下「国有林野」という。）及び森林法（昭和26年法律第249号）第５条に定める地域森林計画の対象となっている民有林（以下「民有林」という。）の区域内の森林資源情報について、20mメッシュ単位で示すものです。  \r\n　このページでは、平面直角座標系Ⅹ(10)系適用区域（青森県、秋田県、山形県、岩手県、宮城県）のデータを公開します。\r\n\r\n　「森林資源メッシュ」は、森林GISフォーラムが運用する‟**森林資源データ解析・管理標準仕様書ver.3.0**”に則し作成したデータで、20mメッシュ単位で次に記載する森林資源量を集計しています。  \r\n　属性情報として、森林調査簿又は森林簿を由来とする①林種、 ②森林簿樹種１、③森林簿樹種２、④森林簿樹種３、 ⑤林齢、⑥森林簿年月日を格納しています。  \r\n　航空レーザ測量成果を由来とする⑦DCHMに基づく樹冠高、⑧樹種ポリゴン又は林相区分図に基づくレーザ解析樹種、⑨単木ポイントに基づく立木密度、⑩DEMに基づく平均標高、⑪計測年月日を格納しています。<br>\r\n\r\n 本データは、**ベクタデータ（ジオパッケージ）**でご提供しています。  \r\n　・ジオパッケージ（.gpkg）は、位置座標を持つベクタデータですので、データをダウンロードし、地理情報シス  \r\n　　テム（GIS）等にファイルを取り込むことでご利用いただけます。ファイルのご提供は国土基本図図郭をベース  \r\n　　としています。各図郭番号の位置は、別添「図郭割（インデックス）図」を参照してください。  \r\n\r\n**【仕様】**  \r\n**ファイル形式**  \r\n ・zip（gpkg）：参照座標系：JGD2011/平面直角座標系Ⅹ(10)系（EPSG：6678）  \r\n**出力範囲**  \r\n　・zip（gpkg）：別添「図郭割（インデックス）図」のとおり  \r\n\r\n**【利用条件】**  \r\n　「公共データ利用規約（第1.0版）に関する重要情報」及び「全国森林資源メッシュの利用規約」について必ずご確認の上、ご利用ください。  \r\n---\r\n**【参考情報】**  \r\n ・森林簿又は森林調査簿、もしくは航空レーザ測量成果が整備されていない場合、属性にNullが入っています。  \r\n　・zip形式の展開は、解凍ソフトをご利用ください。  \r\n （【無料】[圧縮・解凍のソフト一覧 - 窓の杜](https://forest.watch.impress.co.jp/library/nav/genre/arc/archive_archiver.html)※右クリックし「リンクを新しいウィンドウで開く」を選択すると別ウィンドウで開きます。）  \r\n---   ",
+ "id": "01d35024-814d-4dfe-b8f4-8f9d19affa92",
+ "organization": "林野庁",
+ "resources": [
+  {
+   "name": "公共データ利用規約（第1.0版）",
+   "format": "",
+   "url": "https://www.digital.go.jp/resources/open_data/public_data_license_v1.0",
+   "size": null,
+   "last_modified": null,
+   "created": "2025-12-03T07:10:46.416412"
+  },
+  {
+   "name": "公共データ利用規約（第１.0版）に関する重要情報",
+   "format": "PDF",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0e015cc5-05d4-4ae7-b0da-02b9e6dc0a9e/download/important_notes_on_public_data_usage_mesh_terms_v1.0.pdf",
+   "size": 256893,
+   "last_modified": "2026-02-20T06:29:53.372005",
+   "created": "2026-02-19T22:51:06.877668"
+  },
+  {
+   "name": "全国森林資源メッシュの利用規約",
+   "format": "PDF",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/108393e2-5cfc-4a5f-83d9-eb2ffd5ad824/download/national_forest_resource_mesh_terms_of_use.pdf",
+   "size": 231359,
+   "last_modified": "2026-02-25T07:31:16.799922",
+   "created": "2026-02-25T07:31:17.303060"
+  },
+  {
+   "name": "データ定義書（令和８年３月23日版、林野庁森林整備部計画課）",
+   "format": "PDF",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c60a6f55-ae2d-44c0-86b4-7bd3164fcc33/download/data_dictionary_20260323.pdf",
+   "size": 1216580,
+   "last_modified": "2026-03-23T05:28:35.972247",
+   "created": "2026-02-13T06:10:16.479599"
+  },
+  {
+   "name": "図郭割（インデックス）図",
+   "format": "PDF",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/7e3abfec-1cef-4aff-a4e7-a621c537b0f9/download/new_rinya_10kei_index.pdf",
+   "size": 311892,
+   "last_modified": "2026-01-11T02:00:26.646453",
+   "created": "2025-12-28T04:51:03.011496"
+  },
+  {
+   "name": "図郭割データ",
+   "format": "gpkg",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/4604d3c0-ed26-4271-af18-22c8e2e83d26/download/10kei_mesh_index.gpkg",
+   "size": 208896,
+   "last_modified": "2026-03-07T04:26:17.097321",
+   "created": "2026-03-07T04:26:17.608476"
+  },
+  {
+   "name": "fr_mesh20m_10ED4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9f3779ce-c163-4386-b5e2-5dab8e40bdd8/download/fr_mesh20m_10ed4_2025.7z",
+   "size": 114312,
+   "last_modified": "2026-04-23T00:20:21.955217",
+   "created": "2026-04-23T00:20:21.995775"
+  },
+  {
+   "name": "fr_mesh20m_10EE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ef6d17fd-233a-4671-b3b0-7d98ce382b7d/download/fr_mesh20m_10ee1_2025.7z",
+   "size": 701175,
+   "last_modified": "2026-04-23T00:20:24.179874",
+   "created": "2026-04-23T00:20:24.223736"
+  },
+  {
+   "name": "fr_mesh20m_10EE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/18573bf9-9a77-4b6a-8a53-320f53df4c80/download/fr_mesh20m_10ee3_2025.7z",
+   "size": 8164230,
+   "last_modified": "2026-04-23T00:20:32.642401",
+   "created": "2026-04-23T00:20:32.686451"
+  },
+  {
+   "name": "fr_mesh20m_10EE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6b8274f3-f6c0-4080-a356-e4b47d33b6be/download/fr_mesh20m_10ee4_2025.7z",
+   "size": 3015536,
+   "last_modified": "2026-04-23T00:20:37.985569",
+   "created": "2026-04-23T00:20:38.391845"
+  },
+  {
+   "name": "fr_mesh20m_10EF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ffd5f19d-4d90-4d7e-aced-131ef5f788bc/download/fr_mesh20m_10ef3_2025.7z",
+   "size": 971783,
+   "last_modified": "2026-04-23T00:20:41.540029",
+   "created": "2026-04-23T00:20:41.609105"
+  },
+  {
+   "name": "fr_mesh20m_10FC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a8759db1-12cf-4d2e-9797-3d156a9b1fd2/download/fr_mesh20m_10fc2_2025.7z",
+   "size": 242031,
+   "last_modified": "2026-04-23T00:20:44.130770",
+   "created": "2026-04-23T00:20:44.179034"
+  },
+  {
+   "name": "fr_mesh20m_10FC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c99a6040-ab15-428e-b8de-1baba0cf8d99/download/fr_mesh20m_10fc4_2025.7z",
+   "size": 1333615,
+   "last_modified": "2026-04-23T00:20:46.774077",
+   "created": "2026-04-23T00:20:46.823497"
+  },
+  {
+   "name": "fr_mesh20m_10FD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/41815bba-ef75-4fc6-b957-97959d805fdc/download/fr_mesh20m_10fd1_2025.7z",
+   "size": 514030,
+   "last_modified": "2026-04-23T00:20:50.712241",
+   "created": "2026-04-23T00:20:50.766165"
+  },
+  {
+   "name": "fr_mesh20m_10FD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a8671e1c-34e1-439e-a451-261489f5c5bf/download/fr_mesh20m_10fd2_2025.7z",
+   "size": 1342929,
+   "last_modified": "2026-04-23T00:20:53.929928",
+   "created": "2026-04-23T00:20:53.982158"
+  },
+  {
+   "name": "fr_mesh20m_10FD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/1327cbb7-6019-42e2-9ca3-7f08416acc76/download/fr_mesh20m_10fd3_2025.7z",
+   "size": 7989109,
+   "last_modified": "2026-04-23T00:21:03.087132",
+   "created": "2026-04-23T00:21:03.139776"
+  },
+  {
+   "name": "fr_mesh20m_10FD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/030f0154-5632-4bfa-ad83-2421fe09d9e8/download/fr_mesh20m_10fd4_2025.7z",
+   "size": 2805767,
+   "last_modified": "2026-04-23T00:21:07.524558",
+   "created": "2026-04-23T00:21:07.580245"
+  },
+  {
+   "name": "fr_mesh20m_10FE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/481c66bc-8b8d-4106-b70f-07d0d47e846b/download/fr_mesh20m_10fe1_2025.7z",
+   "size": 8341947,
+   "last_modified": "2026-04-23T00:21:15.090215",
+   "created": "2026-04-23T00:21:15.163038"
+  },
+  {
+   "name": "fr_mesh20m_10FE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ee2f85f2-099b-4e48-a702-49da6843cb3e/download/fr_mesh20m_10fe2_2025.7z",
+   "size": 6315706,
+   "last_modified": "2026-04-23T00:21:22.105812",
+   "created": "2026-04-23T00:21:22.166476"
+  },
+  {
+   "name": "fr_mesh20m_10FE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/89100d78-ff53-40f7-bdb0-d7a532df758c/download/fr_mesh20m_10fe3_2025.7z",
+   "size": 2355979,
+   "last_modified": "2026-04-23T00:21:26.086013",
+   "created": "2026-04-23T00:21:26.164909"
+  },
+  {
+   "name": "fr_mesh20m_10FE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/4d6b6bf3-c1ec-479e-a31a-08b90b31d0cf/download/fr_mesh20m_10fe4_2025.7z",
+   "size": 1509603,
+   "last_modified": "2026-04-23T00:21:30.166180",
+   "created": "2026-04-23T00:21:30.240266"
+  },
+  {
+   "name": "fr_mesh20m_10FF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b3b10062-7174-4f43-8a12-1d35f8181e43/download/fr_mesh20m_10ff1_2025.7z",
+   "size": 3242529,
+   "last_modified": "2026-04-23T00:21:35.445240",
+   "created": "2026-04-23T00:21:35.506019"
+  },
+  {
+   "name": "fr_mesh20m_10FF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/82322d00-d134-4058-be18-41d673c1f1ef/download/fr_mesh20m_10ff3_2025.7z",
+   "size": 3319744,
+   "last_modified": "2026-04-23T00:21:41.573073",
+   "created": "2026-04-23T00:21:41.666436"
+  },
+  {
+   "name": "fr_mesh20m_10GC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/acdb0be4-961a-4572-bc17-4c67534267a1/download/fr_mesh20m_10gc2_2025.7z",
+   "size": 1019093,
+   "last_modified": "2026-04-23T00:21:45.258088",
+   "created": "2026-04-23T00:21:45.333591"
+  },
+  {
+   "name": "fr_mesh20m_10GC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/1950b8e4-cf3c-46e6-bbc3-7e256e0d8307/download/fr_mesh20m_10gc4_2025.7z",
+   "size": 1820019,
+   "last_modified": "2026-04-23T00:21:49.186181",
+   "created": "2026-04-23T00:21:49.253994"
+  },
+  {
+   "name": "fr_mesh20m_10GD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a725a323-0494-4ad1-95de-39302bb48e4a/download/fr_mesh20m_10gd1_2025.7z",
+   "size": 8098298,
+   "last_modified": "2026-04-23T00:21:58.370318",
+   "created": "2026-04-23T00:21:58.455684"
+  },
+  {
+   "name": "fr_mesh20m_10GD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/7831c825-cbbc-4363-b060-8b2abf40fc46/download/fr_mesh20m_10gd2_2025.7z",
+   "size": 1627287,
+   "last_modified": "2026-04-23T00:22:03.701452",
+   "created": "2026-04-23T00:22:03.774801"
+  },
+  {
+   "name": "fr_mesh20m_10GD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/dbd98307-216b-4025-a3bb-26f69ac1eee8/download/fr_mesh20m_10gd3_2025.7z",
+   "size": 7313776,
+   "last_modified": "2026-04-23T00:22:11.257836",
+   "created": "2026-04-23T00:22:11.335817"
+  },
+  {
+   "name": "fr_mesh20m_10GD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e4361f7d-cc53-4804-88a1-fe9167ca3063/download/fr_mesh20m_10gd4_2025.7z",
+   "size": 3401030,
+   "last_modified": "2026-04-23T00:22:16.116158",
+   "created": "2026-04-23T00:22:16.189320"
+  },
+  {
+   "name": "fr_mesh20m_10GE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/31b38665-eaee-4f1c-a838-bb5c278b1005/download/fr_mesh20m_10ge1_2025.7z",
+   "size": 1352971,
+   "last_modified": "2026-04-23T00:22:19.967678",
+   "created": "2026-04-23T00:22:20.118451"
+  },
+  {
+   "name": "fr_mesh20m_10GE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/8c0c601b-d02c-4e3e-b3e4-992b8f9cb5e0/download/fr_mesh20m_10ge2_2025.7z",
+   "size": 2231777,
+   "last_modified": "2026-04-23T00:22:24.016893",
+   "created": "2026-04-23T00:22:24.430787"
+  },
+  {
+   "name": "fr_mesh20m_10GE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/368ded6c-0c5f-443f-965c-ca0c5f0efd92/download/fr_mesh20m_10ge3_2025.7z",
+   "size": 8101702,
+   "last_modified": "2026-04-23T00:22:33.253608",
+   "created": "2026-04-23T00:22:33.339573"
+  },
+  {
+   "name": "fr_mesh20m_10GE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c238f8db-9405-4b2a-8218-f97c5c42729c/download/fr_mesh20m_10ge4_2025.7z",
+   "size": 6398229,
+   "last_modified": "2026-04-23T00:22:42.801925",
+   "created": "2026-04-23T00:22:42.902321"
+  },
+  {
+   "name": "fr_mesh20m_10GF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b7f19d25-2368-4ea4-a589-a4e40b214b50/download/fr_mesh20m_10gf1_2025.7z",
+   "size": 2338854,
+   "last_modified": "2026-04-23T00:22:48.750805",
+   "created": "2026-04-23T00:22:48.838145"
+  },
+  {
+   "name": "fr_mesh20m_10GF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a27b19a4-c346-4aaa-a430-501b94344f0e/download/fr_mesh20m_10gf3_2025.7z",
+   "size": 2458425,
+   "last_modified": "2026-04-23T00:22:52.638448",
+   "created": "2026-04-23T00:22:52.724985"
+  },
+  {
+   "name": "fr_mesh20m_10HB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/bff12920-6f3e-4b7e-8a3b-93879d32f2a5/download/fr_mesh20m_10hb3_2025.7z",
+   "size": 10340,
+   "last_modified": "2026-04-23T00:22:55.338132",
+   "created": "2026-04-23T00:22:55.445708"
+  },
+  {
+   "name": "fr_mesh20m_10HB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6b2aeeb3-03f1-4c05-9bb0-bfcf46c03791/download/fr_mesh20m_10hb4_2025.7z",
+   "size": 317781,
+   "last_modified": "2026-04-23T00:22:57.168409",
+   "created": "2026-04-23T00:22:57.608000"
+  },
+  {
+   "name": "fr_mesh20m_10HC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e1935727-df4e-41ac-ba37-c6cf6f1a2183/download/fr_mesh20m_10hc1_2025.7z",
+   "size": 2806729,
+   "last_modified": "2026-04-23T00:23:02.256841",
+   "created": "2026-04-23T00:23:02.684995"
+  },
+  {
+   "name": "fr_mesh20m_10HC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5e21791b-7726-49cb-a5e8-0198ed2e84ca/download/fr_mesh20m_10hc2_2025.7z",
+   "size": 6311997,
+   "last_modified": "2026-04-23T00:23:10.928073",
+   "created": "2026-04-23T00:23:11.021246"
+  },
+  {
+   "name": "fr_mesh20m_10HC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/140b5833-1a9c-4635-82e9-ffe3086f1bce/download/fr_mesh20m_10hc3_2025.7z",
+   "size": 7684728,
+   "last_modified": "2026-04-23T00:23:20.931131",
+   "created": "2026-04-23T00:23:21.025923"
+  },
+  {
+   "name": "fr_mesh20m_10HC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e25b0a83-7927-4152-95fc-c9dcaf73b118/download/fr_mesh20m_10hc4_2025.7z",
+   "size": 8600876,
+   "last_modified": "2026-04-23T00:23:30.111351",
+   "created": "2026-04-23T00:23:30.213168"
+  },
+  {
+   "name": "fr_mesh20m_10HD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9001b708-bc0c-4116-8ff8-008b28bbf340/download/fr_mesh20m_10hd1_2025.7z",
+   "size": 5969405,
+   "last_modified": "2026-04-23T00:23:39.134582",
+   "created": "2026-04-23T00:23:39.671526"
+  },
+  {
+   "name": "fr_mesh20m_10HD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a222d935-4dd3-4809-a7aa-1b02f351f497/download/fr_mesh20m_10hd2_2025.7z",
+   "size": 7878594,
+   "last_modified": "2026-04-23T00:23:49.487506",
+   "created": "2026-04-23T00:23:49.586317"
+  },
+  {
+   "name": "fr_mesh20m_10HD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ca8e7024-0340-4b2f-84af-42edb8bc079d/download/fr_mesh20m_10hd3_2025.7z",
+   "size": 6889875,
+   "last_modified": "2026-04-23T00:23:58.156389",
+   "created": "2026-04-23T00:23:58.288727"
+  },
+  {
+   "name": "fr_mesh20m_10HD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/4165d898-79d3-4b07-a124-c8e7cbfbbf93/download/fr_mesh20m_10hd4_2025.7z",
+   "size": 8313245,
+   "last_modified": "2026-04-23T00:24:08.184703",
+   "created": "2026-04-23T00:24:08.290533"
+  },
+  {
+   "name": "fr_mesh20m_10HE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/70806a9b-f8e2-4de3-af94-f0f7ad18642c/download/fr_mesh20m_10he1_2025.7z",
+   "size": 8534088,
+   "last_modified": "2026-04-23T00:24:18.822288",
+   "created": "2026-04-23T00:24:18.926720"
+  },
+  {
+   "name": "fr_mesh20m_10HE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/d54c97e9-1731-4c19-bd2c-c5dece20d13d/download/fr_mesh20m_10he2_2025.7z",
+   "size": 8056416,
+   "last_modified": "2026-04-23T00:24:28.088236",
+   "created": "2026-04-23T00:24:28.219350"
+  },
+  {
+   "name": "fr_mesh20m_10HE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ad36c398-deac-4d1c-b2ec-4c4ae6d685b9/download/fr_mesh20m_10he3_2025.7z",
+   "size": 8396933,
+   "last_modified": "2026-04-23T00:24:37.105707",
+   "created": "2026-04-23T00:24:37.215842"
+  },
+  {
+   "name": "fr_mesh20m_10HE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5507fbce-7bde-4717-a2c8-d350bd725267/download/fr_mesh20m_10he4_2025.7z",
+   "size": 7885037,
+   "last_modified": "2026-04-23T00:24:46.496926",
+   "created": "2026-04-23T00:24:46.610486"
+  },
+  {
+   "name": "fr_mesh20m_10HF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/cafd6d91-bdd6-4abf-b1ab-0990f1fc728a/download/fr_mesh20m_10hf1_2025.7z",
+   "size": 3046156,
+   "last_modified": "2026-04-23T00:24:52.627191",
+   "created": "2026-04-23T00:24:52.740855"
+  },
+  {
+   "name": "fr_mesh20m_10HF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/f5a6c68d-5046-4a65-b8e2-2ccd52f2b3b6/download/fr_mesh20m_10hf3_2025.7z",
+   "size": 4379776,
+   "last_modified": "2026-04-23T00:24:58.103538",
+   "created": "2026-04-23T00:24:58.233857"
+  },
+  {
+   "name": "fr_mesh20m_10HF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3a1dec6c-1469-4503-8092-6d4e4742b2b8/download/fr_mesh20m_10hf4_2025.7z",
+   "size": 35828,
+   "last_modified": "2026-04-23T00:25:01.162088",
+   "created": "2026-04-23T00:25:01.276835"
+  },
+  {
+   "name": "fr_mesh20m_10IB1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3627b1de-0a14-463d-bcae-ec555f2ef6ce/download/fr_mesh20m_10ib1_2025.7z",
+   "size": 10164,
+   "last_modified": "2026-04-23T00:25:02.952838",
+   "created": "2026-04-23T00:25:03.087964"
+  },
+  {
+   "name": "fr_mesh20m_10IC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b7bc3abd-1b24-4711-b9e0-3c237eaeddc3/download/fr_mesh20m_10ic1_2025.7z",
+   "size": 6300643,
+   "last_modified": "2026-04-23T00:25:08.248138",
+   "created": "2026-04-23T00:25:08.378451"
+  },
+  {
+   "name": "fr_mesh20m_10IC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9aab1dd0-464a-4d07-bfd6-71afe6df71ba/download/fr_mesh20m_10ic2_2025.7z",
+   "size": 8299572,
+   "last_modified": "2026-04-23T00:25:17.273013",
+   "created": "2026-04-23T00:25:17.458646"
+  },
+  {
+   "name": "fr_mesh20m_10IC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2ad66909-cfdb-4f12-8004-685f65760fea/download/fr_mesh20m_10ic3_2025.7z",
+   "size": 3224622,
+   "last_modified": "2026-04-23T00:25:22.787493",
+   "created": "2026-04-23T00:25:22.912334"
+  },
+  {
+   "name": "fr_mesh20m_10IC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/882f3364-0088-4dbd-a036-42a13983e22b/download/fr_mesh20m_10ic4_2025.7z",
+   "size": 8628279,
+   "last_modified": "2026-04-23T00:25:31.415487",
+   "created": "2026-04-23T00:25:31.729264"
+  },
+  {
+   "name": "fr_mesh20m_10ID1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/648d5a24-5cfa-49d8-8c07-0d46ae90e552/download/fr_mesh20m_10id1_2025.7z",
+   "size": 8417020,
+   "last_modified": "2026-04-23T00:25:40.273308",
+   "created": "2026-04-23T00:25:40.398334"
+  },
+  {
+   "name": "fr_mesh20m_10ID2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/46c8efb6-225c-4604-a0b7-72f753231e95/download/fr_mesh20m_10id2_2025.7z",
+   "size": 9059620,
+   "last_modified": "2026-04-23T00:25:50.145579",
+   "created": "2026-04-23T00:25:50.273794"
+  },
+  {
+   "name": "fr_mesh20m_10ID3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/865d6c33-da90-4d1b-b673-f0b41382eb04/download/fr_mesh20m_10id3_2025.7z",
+   "size": 8200888,
+   "last_modified": "2026-04-23T00:26:01.098392",
+   "created": "2026-04-23T00:26:01.233576"
+  },
+  {
+   "name": "fr_mesh20m_10ID4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/97861adb-dbff-4cf2-bb56-15846ce6e31c/download/fr_mesh20m_10id4_2025.7z",
+   "size": 8093714,
+   "last_modified": "2026-04-23T00:26:11.620094",
+   "created": "2026-04-23T00:26:11.770885"
+  },
+  {
+   "name": "fr_mesh20m_10IE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a22479c0-f6c2-491f-bbab-2e95714c200a/download/fr_mesh20m_10ie1_2025.7z",
+   "size": 7631829,
+   "last_modified": "2026-04-23T00:26:20.584343",
+   "created": "2026-04-23T00:26:20.718560"
+  },
+  {
+   "name": "fr_mesh20m_10IE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/00442a2c-8956-4da0-85ff-2d0abf74c261/download/fr_mesh20m_10ie2_2025.7z",
+   "size": 8901182,
+   "last_modified": "2026-04-23T00:26:29.699933",
+   "created": "2026-04-23T00:26:29.830214"
+  },
+  {
+   "name": "fr_mesh20m_10IE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2fd77d7d-6874-477f-ae0e-9698699142c5/download/fr_mesh20m_10ie3_2025.7z",
+   "size": 8014830,
+   "last_modified": "2026-04-23T00:26:38.843920",
+   "created": "2026-04-23T00:26:39.013357"
+  },
+  {
+   "name": "fr_mesh20m_10IE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/fd9721ac-2847-45ac-9159-34f492dea963/download/fr_mesh20m_10ie4_2025.7z",
+   "size": 8230515,
+   "last_modified": "2026-04-23T00:26:47.835544",
+   "created": "2026-04-23T00:26:48.296204"
+  },
+  {
+   "name": "fr_mesh20m_10IF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/bd895852-7ca9-46be-af8a-1f08c6d97106/download/fr_mesh20m_10if1_2025.7z",
+   "size": 8231556,
+   "last_modified": "2026-04-23T00:26:57.273920",
+   "created": "2026-04-23T00:26:57.411751"
+  },
+  {
+   "name": "fr_mesh20m_10IF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6df78ce2-e1eb-43f8-a5c6-80ce3660a4fa/download/fr_mesh20m_10if2_2025.7z",
+   "size": 3300989,
+   "last_modified": "2026-04-23T00:27:03.470564",
+   "created": "2026-04-23T00:27:03.644503"
+  },
+  {
+   "name": "fr_mesh20m_10IF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/06cf7e7e-f8bd-42d2-9b79-561a836af51c/download/fr_mesh20m_10if3_2025.7z",
+   "size": 8769717,
+   "last_modified": "2026-04-23T00:27:15.570761",
+   "created": "2026-04-23T00:27:15.737132"
+  },
+  {
+   "name": "fr_mesh20m_10IF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/f74a4060-14ae-4e71-a710-8882033fddec/download/fr_mesh20m_10if4_2025.7z",
+   "size": 8738136,
+   "last_modified": "2026-04-23T00:27:27.586567",
+   "created": "2026-04-23T00:27:27.736137"
+  },
+  {
+   "name": "fr_mesh20m_10IG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c8bdc260-1d69-4151-84f9-0835ffb92da2/download/fr_mesh20m_10ig3_2025.7z",
+   "size": 345674,
+   "last_modified": "2026-04-23T00:27:31.837638",
+   "created": "2026-04-23T00:27:31.988723"
+  },
+  {
+   "name": "fr_mesh20m_10JB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/84a42991-3303-4490-a403-b251ced966ba/download/fr_mesh20m_10jb4_2025.7z",
+   "size": 78119,
+   "last_modified": "2026-04-23T00:27:34.616027",
+   "created": "2026-04-23T00:27:34.824536"
+  },
+  {
+   "name": "fr_mesh20m_10JC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/aed92677-10e8-4bd2-b75e-ff53c5bea36c/download/fr_mesh20m_10jc1_2025.7z",
+   "size": 3404595,
+   "last_modified": "2026-04-23T00:27:40.031990",
+   "created": "2026-04-23T00:27:40.324225"
+  },
+  {
+   "name": "fr_mesh20m_10JC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ed9b7a12-37dc-45f0-aa97-6152d3458fe7/download/fr_mesh20m_10jc2_2025.7z",
+   "size": 7641794,
+   "last_modified": "2026-04-23T00:27:48.844632",
+   "created": "2026-04-23T00:27:49.019025"
+  },
+  {
+   "name": "fr_mesh20m_10JC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/d60ade68-103e-4ad9-9e43-da71eaa7d2cb/download/fr_mesh20m_10jc3_2025.7z",
+   "size": 5671051,
+   "last_modified": "2026-04-23T00:27:56.457280",
+   "created": "2026-04-23T00:27:56.611440"
+  },
+  {
+   "name": "fr_mesh20m_10JC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a8f622ff-59d8-4893-887a-df6ea69f2af9/download/fr_mesh20m_10jc4_2025.7z",
+   "size": 9179900,
+   "last_modified": "2026-04-23T00:28:07.859627",
+   "created": "2026-04-23T00:28:08.073761"
+  },
+  {
+   "name": "fr_mesh20m_10JD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9df4476d-dce6-4f2a-89d3-80ae6894d1d0/download/fr_mesh20m_10jd1_2025.7z",
+   "size": 7741466,
+   "last_modified": "2026-04-23T00:28:17.965265",
+   "created": "2026-04-23T00:28:18.393016"
+  },
+  {
+   "name": "fr_mesh20m_10JD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2e329298-7e55-4496-9261-7ffaa3124e62/download/fr_mesh20m_10jd2_2025.7z",
+   "size": 7784276,
+   "last_modified": "2026-04-23T00:28:27.635395",
+   "created": "2026-04-23T00:28:28.099297"
+  },
+  {
+   "name": "fr_mesh20m_10JD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5d895ee7-3105-4499-a3ca-c26967b9ca82/download/fr_mesh20m_10jd3_2025.7z",
+   "size": 7946412,
+   "last_modified": "2026-04-23T00:28:37.127016",
+   "created": "2026-04-23T00:28:37.286175"
+  },
+  {
+   "name": "fr_mesh20m_10JD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2a3d9a5b-cf44-4993-986e-e847d4f88ee8/download/fr_mesh20m_10jd4_2025.7z",
+   "size": 7921477,
+   "last_modified": "2026-04-23T00:28:48.496551",
+   "created": "2026-04-23T00:28:48.817998"
+  },
+  {
+   "name": "fr_mesh20m_10JE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a37eca8a-90ec-479f-852e-3ff61b65baa5/download/fr_mesh20m_10je1_2025.7z",
+   "size": 8234731,
+   "last_modified": "2026-04-23T00:28:58.989571",
+   "created": "2026-04-23T00:28:59.196170"
+  },
+  {
+   "name": "fr_mesh20m_10JE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/639470f1-16e1-4472-a4d5-800b276d1016/download/fr_mesh20m_10je2_2025.7z",
+   "size": 8455153,
+   "last_modified": "2026-04-23T00:29:09.367956",
+   "created": "2026-04-23T00:29:09.533768"
+  },
+  {
+   "name": "fr_mesh20m_10JE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/911d2ab7-755d-4622-bd3a-a0ddfccf6aaa/download/fr_mesh20m_10je3_2025.7z",
+   "size": 8304736,
+   "last_modified": "2026-04-23T00:29:18.802995",
+   "created": "2026-04-23T00:29:19.066911"
+  },
+  {
+   "name": "fr_mesh20m_10JE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/cf26f410-fcff-4971-93c7-3e39b91c5cde/download/fr_mesh20m_10je4_2025.7z",
+   "size": 7925732,
+   "last_modified": "2026-04-23T00:29:29.026625",
+   "created": "2026-04-23T00:29:29.531682"
+  },
+  {
+   "name": "fr_mesh20m_10JF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/97f73388-1dca-4644-9e0a-3cad5e5021e8/download/fr_mesh20m_10jf1_2025.7z",
+   "size": 8505305,
+   "last_modified": "2026-04-23T00:29:39.882027",
+   "created": "2026-04-23T00:29:40.060544"
+  },
+  {
+   "name": "fr_mesh20m_10JF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3f491628-fb63-462e-aa91-a1f227195016/download/fr_mesh20m_10jf2_2025.7z",
+   "size": 8652603,
+   "last_modified": "2026-04-23T00:29:48.631799",
+   "created": "2026-04-23T00:29:48.823273"
+  },
+  {
+   "name": "fr_mesh20m_10JF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/cb159b3c-77a2-4799-8cb6-05fabbbf1de1/download/fr_mesh20m_10jf3_2025.7z",
+   "size": 8132373,
+   "last_modified": "2026-04-23T00:29:58.198460",
+   "created": "2026-04-23T00:29:58.455032"
+  },
+  {
+   "name": "fr_mesh20m_10JF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/de1b3208-56ca-42d2-a6a8-01f6fcece343/download/fr_mesh20m_10jf4_2025.7z",
+   "size": 8570102,
+   "last_modified": "2026-04-23T00:30:09.100107",
+   "created": "2026-04-23T00:30:09.288910"
+  },
+  {
+   "name": "fr_mesh20m_10JG1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/8538ee86-5724-44af-a57d-b713bbd45449/download/fr_mesh20m_10jg1_2025.7z",
+   "size": 1802928,
+   "last_modified": "2026-04-23T00:30:13.867438",
+   "created": "2026-04-23T00:30:14.424145"
+  },
+  {
+   "name": "fr_mesh20m_10JG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/68d6a28e-6204-4bf2-b069-716409c052d9/download/fr_mesh20m_10jg3_2025.7z",
+   "size": 2924486,
+   "last_modified": "2026-04-23T00:30:19.716028",
+   "created": "2026-04-23T00:30:19.896875"
+  },
+  {
+   "name": "fr_mesh20m_10KB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ec1af167-bec0-497d-9cfe-c6646494a1f2/download/fr_mesh20m_10kb2_2025.7z",
+   "size": 4430188,
+   "last_modified": "2026-04-23T00:30:27.188008",
+   "created": "2026-04-23T00:30:27.411655"
+  },
+  {
+   "name": "fr_mesh20m_10KB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6f61f3a7-9d26-480a-9266-860cb51c09bc/download/fr_mesh20m_10kb4_2025.7z",
+   "size": 28817,
+   "last_modified": "2026-04-23T00:30:31.471655",
+   "created": "2026-04-23T00:30:31.657438"
+  },
+  {
+   "name": "fr_mesh20m_10KC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0f8a0868-f8d5-4a54-a105-9710b37a3909/download/fr_mesh20m_10kc1_2025.7z",
+   "size": 6894189,
+   "last_modified": "2026-04-23T00:30:38.664827",
+   "created": "2026-04-23T00:30:39.085142"
+  },
+  {
+   "name": "fr_mesh20m_10KC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/53279134-715f-48c3-900d-dd1bcdb68cf8/download/fr_mesh20m_10kc2_2025.7z",
+   "size": 8654167,
+   "last_modified": "2026-04-23T00:30:49.563421",
+   "created": "2026-04-23T00:30:49.809842"
+  },
+  {
+   "name": "fr_mesh20m_10KC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3ebbae5e-b5f8-46b9-90df-19fbd22eaa7b/download/fr_mesh20m_10kc3_2025.7z",
+   "size": 3326023,
+   "last_modified": "2026-04-23T00:30:55.685903",
+   "created": "2026-04-23T00:30:55.927340"
+  },
+  {
+   "name": "fr_mesh20m_10KC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e5c8c199-3835-475d-915c-38bc5abacd5d/download/fr_mesh20m_10kc4_2025.7z",
+   "size": 8219486,
+   "last_modified": "2026-04-23T00:31:04.681369",
+   "created": "2026-04-23T00:31:04.934678"
+  },
+  {
+   "name": "fr_mesh20m_10KD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/d6d30ce9-c5b9-4af3-ad88-88fc9794a748/download/fr_mesh20m_10kd1_2025.7z",
+   "size": 9049951,
+   "last_modified": "2026-04-23T00:31:14.255985",
+   "created": "2026-04-23T00:31:14.506435"
+  },
+  {
+   "name": "fr_mesh20m_10KD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/7de21fd7-de56-4354-809a-8b9631fbcf7d/download/fr_mesh20m_10kd2_2025.7z",
+   "size": 7809399,
+   "last_modified": "2026-04-23T00:31:23.806690",
+   "created": "2026-04-23T00:31:24.019755"
+  },
+  {
+   "name": "fr_mesh20m_10KD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/294edb76-744c-4cd7-afe2-2dc00f68c11c/download/fr_mesh20m_10kd3_2025.7z",
+   "size": 8286907,
+   "last_modified": "2026-04-23T00:31:31.666586",
+   "created": "2026-04-23T00:31:32.215105"
+  },
+  {
+   "name": "fr_mesh20m_10KD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/72ef3c17-417a-4664-ab6e-69239d427c00/download/fr_mesh20m_10kd4_2025.7z",
+   "size": 8190849,
+   "last_modified": "2026-04-23T00:31:39.863063",
+   "created": "2026-04-23T00:31:40.133126"
+  },
+  {
+   "name": "fr_mesh20m_10KE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9795c547-d390-4333-8e32-cd3c74c637c2/download/fr_mesh20m_10ke1_2025.7z",
+   "size": 8327809,
+   "last_modified": "2026-04-23T00:31:50.271540",
+   "created": "2026-04-23T00:31:50.673680"
+  },
+  {
+   "name": "fr_mesh20m_10KE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/00890b59-7442-4b52-afa8-a0f4b06122de/download/fr_mesh20m_10ke2_2025.7z",
+   "size": 7975401,
+   "last_modified": "2026-04-23T00:31:59.578178",
+   "created": "2026-04-23T00:31:59.830165"
+  },
+  {
+   "name": "fr_mesh20m_10KE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5c634a63-6e96-40bd-9158-0b7b64db7086/download/fr_mesh20m_10ke3_2025.7z",
+   "size": 8256310,
+   "last_modified": "2026-04-23T00:32:09.154240",
+   "created": "2026-04-23T00:32:09.361553"
+  },
+  {
+   "name": "fr_mesh20m_10KE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0718ab4e-3f96-44c6-8664-3b0092656839/download/fr_mesh20m_10ke4_2025.7z",
+   "size": 7670626,
+   "last_modified": "2026-04-23T00:32:18.622940",
+   "created": "2026-04-23T00:32:19.128159"
+  },
+  {
+   "name": "fr_mesh20m_10KF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/36cd08bb-7d6c-4914-bd6b-41b4870248d4/download/fr_mesh20m_10kf1_2025.7z",
+   "size": 8103442,
+   "last_modified": "2026-04-23T00:32:27.973481",
+   "created": "2026-04-23T00:32:28.583811"
+  },
+  {
+   "name": "fr_mesh20m_10KF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/8bf3454a-c450-4f00-817d-154c2c55116e/download/fr_mesh20m_10kf2_2025.7z",
+   "size": 8627338,
+   "last_modified": "2026-04-23T00:32:38.983991",
+   "created": "2026-04-23T00:32:39.246946"
+  },
+  {
+   "name": "fr_mesh20m_10KF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/198b6a65-c9f3-4908-8a6d-ea8fe8f6f443/download/fr_mesh20m_10kf3_2025.7z",
+   "size": 7951430,
+   "last_modified": "2026-04-23T00:32:49.065584",
+   "created": "2026-04-23T00:32:49.658985"
+  },
+  {
+   "name": "fr_mesh20m_10KF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/adddbf12-583b-4499-a148-bc621b0a7c47/download/fr_mesh20m_10kf4_2025.7z",
+   "size": 7856860,
+   "last_modified": "2026-04-23T00:32:58.048730",
+   "created": "2026-04-23T00:32:58.265632"
+  },
+  {
+   "name": "fr_mesh20m_10KG1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/fafec055-30d5-4648-9404-30bb8e46ea4d/download/fr_mesh20m_10kg1_2025.7z",
+   "size": 7639199,
+   "last_modified": "2026-04-23T00:33:08.514190",
+   "created": "2026-04-23T00:33:08.775685"
+  },
+  {
+   "name": "fr_mesh20m_10KG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/64a9ac07-cc43-4d69-adfc-e35fb2499265/download/fr_mesh20m_10kg3_2025.7z",
+   "size": 8400572,
+   "last_modified": "2026-04-23T00:33:18.477399",
+   "created": "2026-04-23T00:33:18.727215"
+  },
+  {
+   "name": "fr_mesh20m_10KG4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ecb6bf70-eadf-4e14-9f9f-a1fbb97f78dd/download/fr_mesh20m_10kg4_2025.7z",
+   "size": 18178,
+   "last_modified": "2026-04-23T00:33:22.418033",
+   "created": "2026-04-23T00:33:22.637208"
+  },
+  {
+   "name": "fr_mesh20m_10LC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e7be02ae-1893-4933-ad40-6178929876a2/download/fr_mesh20m_10lc1_2025.7z",
+   "size": 2033613,
+   "last_modified": "2026-04-23T00:33:26.408603",
+   "created": "2026-04-23T00:33:26.694606"
+  },
+  {
+   "name": "fr_mesh20m_10LC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/12c19514-8a66-49d9-a847-c9626c94f426/download/fr_mesh20m_10lc2_2025.7z",
+   "size": 7619132,
+   "last_modified": "2026-04-23T00:33:36.353256",
+   "created": "2026-04-23T00:33:36.586459"
+  },
+  {
+   "name": "fr_mesh20m_10LC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/da43cc1f-c896-4e2a-988a-06968edb900d/download/fr_mesh20m_10lc3_2025.7z",
+   "size": 3271313,
+   "last_modified": "2026-04-23T00:33:41.777370",
+   "created": "2026-04-23T00:33:42.350511"
+  },
+  {
+   "name": "fr_mesh20m_10LC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/f4134ac5-8e25-4ba3-b57a-6d2cda614303/download/fr_mesh20m_10lc4_2025.7z",
+   "size": 8247331,
+   "last_modified": "2026-04-23T00:33:50.957761",
+   "created": "2026-04-23T00:33:51.184183"
+  },
+  {
+   "name": "fr_mesh20m_10LD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/320f9f16-31a0-43c4-a7c8-c7a0ccd265d9/download/fr_mesh20m_10ld1_2025.7z",
+   "size": 8462050,
+   "last_modified": "2026-04-23T00:34:01.107703",
+   "created": "2026-04-23T00:34:01.414292"
+  },
+  {
+   "name": "fr_mesh20m_10LD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ac68db17-5134-4b26-bff7-ceeb1e20bfd8/download/fr_mesh20m_10ld2_2025.7z",
+   "size": 8150182,
+   "last_modified": "2026-04-23T00:34:10.150631",
+   "created": "2026-04-23T00:34:10.378858"
+  },
+  {
+   "name": "fr_mesh20m_10LD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/56a8465d-f185-4e60-8f9c-512392204992/download/fr_mesh20m_10ld3_2025.7z",
+   "size": 7185722,
+   "last_modified": "2026-04-23T00:34:18.668260",
+   "created": "2026-04-23T00:34:18.904446"
+  },
+  {
+   "name": "fr_mesh20m_10LD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/83336cfb-c77c-4abb-bae9-116e0fdac4f4/download/fr_mesh20m_10ld4_2025.7z",
+   "size": 7882931,
+   "last_modified": "2026-04-23T00:34:27.787177",
+   "created": "2026-04-23T00:34:28.025016"
+  },
+  {
+   "name": "fr_mesh20m_10LE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/07c4b2ef-7f8d-485a-b26a-aa5216589195/download/fr_mesh20m_10le1_2025.7z",
+   "size": 8325624,
+   "last_modified": "2026-04-23T00:34:38.018927",
+   "created": "2026-04-23T00:34:38.292916"
+  },
+  {
+   "name": "fr_mesh20m_10LE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/f532368d-3c6b-4810-9303-440814e7b0a9/download/fr_mesh20m_10le2_2025.7z",
+   "size": 7415261,
+   "last_modified": "2026-04-23T00:34:47.807272",
+   "created": "2026-04-23T00:34:48.112109"
+  },
+  {
+   "name": "fr_mesh20m_10LE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/8c587ef6-b292-4ae8-b871-2647bb4c2d00/download/fr_mesh20m_10le3_2025.7z",
+   "size": 9613974,
+   "last_modified": "2026-04-23T00:34:58.790998",
+   "created": "2026-04-23T00:34:59.154367"
+  },
+  {
+   "name": "fr_mesh20m_10LE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a90ba390-dad8-4759-96b5-2d301ecdfc6a/download/fr_mesh20m_10le4_2025.7z",
+   "size": 7808976,
+   "last_modified": "2026-04-23T00:35:08.827666",
+   "created": "2026-04-23T00:35:09.148025"
+  },
+  {
+   "name": "fr_mesh20m_10LF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e9fa4dc0-da01-4d5c-8c6f-f7b0afff50aa/download/fr_mesh20m_10lf1_2025.7z",
+   "size": 8587308,
+   "last_modified": "2026-04-23T00:35:18.424118",
+   "created": "2026-04-23T00:35:18.692924"
+  },
+  {
+   "name": "fr_mesh20m_10LF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/560a47cb-2948-4ca8-be66-f533ca322088/download/fr_mesh20m_10lf2_2025.7z",
+   "size": 8188076,
+   "last_modified": "2026-04-23T00:35:28.776920",
+   "created": "2026-04-23T00:35:29.176626"
+  },
+  {
+   "name": "fr_mesh20m_10LF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/78257641-bdb6-4843-859e-e4095a2d329f/download/fr_mesh20m_10lf3_2025.7z",
+   "size": 9046973,
+   "last_modified": "2026-04-23T00:35:38.413573",
+   "created": "2026-04-23T00:35:38.666228"
+  },
+  {
+   "name": "fr_mesh20m_10LF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/54be8245-9aed-4b2b-ae1e-f2570182b422/download/fr_mesh20m_10lf4_2025.7z",
+   "size": 9210578,
+   "last_modified": "2026-04-23T00:35:49.045427",
+   "created": "2026-04-23T00:35:49.327931"
+  },
+  {
+   "name": "fr_mesh20m_10LG1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/cf792b1d-a1fb-4363-8d4b-11490cb22068/download/fr_mesh20m_10lg1_2025.7z",
+   "size": 8656598,
+   "last_modified": "2026-04-23T00:35:58.463830",
+   "created": "2026-04-23T00:35:58.771670"
+  },
+  {
+   "name": "fr_mesh20m_10LG2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3a79ed10-fe85-4337-823c-deb8e2b52766/download/fr_mesh20m_10lg2_2025.7z",
+   "size": 457386,
+   "last_modified": "2026-04-23T00:36:03.539309",
+   "created": "2026-04-23T00:36:03.802697"
+  },
+  {
+   "name": "fr_mesh20m_10LG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9d83de74-8370-47f0-887d-2c281a9c753b/download/fr_mesh20m_10lg3_2025.7z",
+   "size": 8877864,
+   "last_modified": "2026-04-23T00:36:11.523612",
+   "created": "2026-04-23T00:36:12.114226"
+  },
+  {
+   "name": "fr_mesh20m_10LG4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6f1ca145-6583-4328-8890-48cd3955227d/download/fr_mesh20m_10lg4_2025.7z",
+   "size": 1476838,
+   "last_modified": "2026-04-23T00:36:16.561852",
+   "created": "2026-04-23T00:36:16.822013"
+  },
+  {
+   "name": "fr_mesh20m_10MB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c2dec0b1-bc8a-4c39-9edf-0830f3204cc9/download/fr_mesh20m_10mb3_2025.7z",
+   "size": 127258,
+   "last_modified": "2026-04-23T00:36:19.683434",
+   "created": "2026-04-23T00:36:19.975790"
+  },
+  {
+   "name": "fr_mesh20m_10MB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e4754744-1deb-41c9-9ed4-87d08ec4618a/download/fr_mesh20m_10mb4_2025.7z",
+   "size": 81202,
+   "last_modified": "2026-04-23T00:36:22.876945",
+   "created": "2026-04-23T00:36:23.313243"
+  },
+  {
+   "name": "fr_mesh20m_10MC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6ad2d455-7264-4b9e-9055-03ea6aefc425/download/fr_mesh20m_10mc1_2025.7z",
+   "size": 3765680,
+   "last_modified": "2026-04-23T00:36:28.410159",
+   "created": "2026-04-23T00:36:28.984067"
+  },
+  {
+   "name": "fr_mesh20m_10MC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/60947f5a-48b2-4cf5-a156-2f1f5b0dbbf0/download/fr_mesh20m_10mc2_2025.7z",
+   "size": 8016332,
+   "last_modified": "2026-04-23T00:36:37.099998",
+   "created": "2026-04-23T00:36:37.392801"
+  },
+  {
+   "name": "fr_mesh20m_10MC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e655b3e7-627b-4363-b995-0269f0dd39a0/download/fr_mesh20m_10mc3_2025.7z",
+   "size": 8393180,
+   "last_modified": "2026-04-23T00:36:47.334293",
+   "created": "2026-04-23T00:36:47.614377"
+  },
+  {
+   "name": "fr_mesh20m_10MC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/345f52b0-459e-4662-a258-5167d335fa6c/download/fr_mesh20m_10mc4_2025.7z",
+   "size": 8422555,
+   "last_modified": "2026-04-23T00:36:55.402857",
+   "created": "2026-04-23T00:36:55.749271"
+  },
+  {
+   "name": "fr_mesh20m_10MD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ced3137d-cb55-434f-a421-57f0eaa910e0/download/fr_mesh20m_10md1_2025.7z",
+   "size": 6687548,
+   "last_modified": "2026-04-23T00:37:03.509606",
+   "created": "2026-04-23T00:37:03.842226"
+  },
+  {
+   "name": "fr_mesh20m_10MD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5d4dea9e-c6f6-44e2-b6fb-7407029e135c/download/fr_mesh20m_10md2_2025.7z",
+   "size": 8138523,
+   "last_modified": "2026-04-23T00:37:12.083170",
+   "created": "2026-04-23T00:37:12.392132"
+  },
+  {
+   "name": "fr_mesh20m_10MD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/20a82e7e-8a2d-404b-8dbc-587c87e382e1/download/fr_mesh20m_10md3_2025.7z",
+   "size": 6812937,
+   "last_modified": "2026-04-23T00:37:20.516443",
+   "created": "2026-04-23T00:37:20.795248"
+  },
+  {
+   "name": "fr_mesh20m_10MD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/41301d8a-562c-4fe2-8608-559e9249f93b/download/fr_mesh20m_10md4_2025.7z",
+   "size": 7306516,
+   "last_modified": "2026-04-23T00:37:28.139655",
+   "created": "2026-04-23T00:37:28.421008"
+  },
+  {
+   "name": "fr_mesh20m_10ME1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e9f62d8e-65a6-43fe-8e21-d73d25983bb4/download/fr_mesh20m_10me1_2025.7z",
+   "size": 8888823,
+   "last_modified": "2026-04-23T00:37:36.961913",
+   "created": "2026-04-23T00:37:37.270604"
+  },
+  {
+   "name": "fr_mesh20m_10ME2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/865c1536-ad55-4ff6-9552-e190bcf9773f/download/fr_mesh20m_10me2_2025.7z",
+   "size": 7428433,
+   "last_modified": "2026-04-23T00:37:44.588557",
+   "created": "2026-04-23T00:37:44.871433"
+  },
+  {
+   "name": "fr_mesh20m_10ME3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/1e1e4408-05c0-4d0b-92bf-241346cb3cd9/download/fr_mesh20m_10me3_2025.7z",
+   "size": 7631177,
+   "last_modified": "2026-04-23T00:37:53.044145",
+   "created": "2026-04-23T00:37:53.330215"
+  },
+  {
+   "name": "fr_mesh20m_10ME4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ace3ccf4-648f-4c83-a1a2-67d3bf55e473/download/fr_mesh20m_10me4_2025.7z",
+   "size": 7409380,
+   "last_modified": "2026-04-23T00:38:00.910666",
+   "created": "2026-04-23T00:38:01.257481"
+  },
+  {
+   "name": "fr_mesh20m_10MF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a649da2d-70d5-443a-86ce-51e13564a8b5/download/fr_mesh20m_10mf1_2025.7z",
+   "size": 9307790,
+   "last_modified": "2026-04-23T00:38:11.330776",
+   "created": "2026-04-23T00:38:11.686625"
+  },
+  {
+   "name": "fr_mesh20m_10MF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c7057211-41a2-414e-a28d-51b54d16e8ef/download/fr_mesh20m_10mf2_2025.7z",
+   "size": 9237946,
+   "last_modified": "2026-04-23T00:38:20.790878",
+   "created": "2026-04-23T00:38:21.094833"
+  },
+  {
+   "name": "fr_mesh20m_10MF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2c821a80-18ef-44d4-b4fe-1f28c25f476e/download/fr_mesh20m_10mf3_2025.7z",
+   "size": 8622731,
+   "last_modified": "2026-04-23T00:38:30.816802",
+   "created": "2026-04-23T00:38:31.111929"
+  },
+  {
+   "name": "fr_mesh20m_10MF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c3d35ada-01de-4d55-b43a-59cd1752bac4/download/fr_mesh20m_10mf4_2025.7z",
+   "size": 8261048,
+   "last_modified": "2026-04-23T00:38:42.531289",
+   "created": "2026-04-23T00:38:42.881609"
+  },
+  {
+   "name": "fr_mesh20m_10MG1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/39a3a53f-efd6-4948-b06a-6ee6226c128d/download/fr_mesh20m_10mg1_2025.7z",
+   "size": 8471663,
+   "last_modified": "2026-04-23T00:38:51.817981",
+   "created": "2026-04-23T00:38:52.130647"
+  },
+  {
+   "name": "fr_mesh20m_10MG2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e3a29083-0c6f-4917-98f2-335c461e7be2/download/fr_mesh20m_10mg2_2025.7z",
+   "size": 443238,
+   "last_modified": "2026-04-23T00:38:56.381381",
+   "created": "2026-04-23T00:38:56.736953"
+  },
+  {
+   "name": "fr_mesh20m_10MG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/003810dc-4733-4d7b-bd13-65df1c180153/download/fr_mesh20m_10mg3_2025.7z",
+   "size": 6085659,
+   "last_modified": "2026-04-23T00:39:03.184142",
+   "created": "2026-04-23T00:39:03.507925"
+  },
+  {
+   "name": "fr_mesh20m_10NB1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2a632930-a374-46e6-bf10-5edba7401bf6/download/fr_mesh20m_10nb1_2025.7z",
+   "size": 13760,
+   "last_modified": "2026-04-23T00:39:07.639920",
+   "created": "2026-04-23T00:39:08.021204"
+  },
+  {
+   "name": "fr_mesh20m_10NB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/68469678-8f24-428e-9185-62b6d816fa1e/download/fr_mesh20m_10nb2_2025.7z",
+   "size": 1046868,
+   "last_modified": "2026-04-23T00:39:11.242551",
+   "created": "2026-04-23T00:39:11.552783"
+  },
+  {
+   "name": "fr_mesh20m_10NB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c917c5af-b443-44f9-98dd-7ae4cba29355/download/fr_mesh20m_10nb4_2025.7z",
+   "size": 1864755,
+   "last_modified": "2026-04-23T00:39:16.232209",
+   "created": "2026-04-23T00:39:16.560479"
+  },
+  {
+   "name": "fr_mesh20m_10NC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/13ae75ec-1be5-46df-af8d-eb4aed433d19/download/fr_mesh20m_10nc1_2025.7z",
+   "size": 8527418,
+   "last_modified": "2026-04-23T00:39:24.440691",
+   "created": "2026-04-23T00:39:24.830629"
+  },
+  {
+   "name": "fr_mesh20m_10NC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/4487c338-f69e-402f-8437-ca999d262173/download/fr_mesh20m_10nc2_2025.7z",
+   "size": 8823552,
+   "last_modified": "2026-04-23T00:39:34.287540",
+   "created": "2026-04-23T00:39:34.604707"
+  },
+  {
+   "name": "fr_mesh20m_10NC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/cf72ac92-df59-4103-a676-71b2f42815ca/download/fr_mesh20m_10nc3_2025.7z",
+   "size": 10940568,
+   "last_modified": "2026-04-23T00:39:44.478125",
+   "created": "2026-04-23T00:39:44.818150"
+  },
+  {
+   "name": "fr_mesh20m_10NC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3220fd0a-33b7-4e5c-bd5e-3f0c55195685/download/fr_mesh20m_10nc4_2025.7z",
+   "size": 8733464,
+   "last_modified": "2026-04-23T00:39:53.940815",
+   "created": "2026-04-23T00:39:54.384550"
+  },
+  {
+   "name": "fr_mesh20m_10ND1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a4e8d4f1-f80b-4b9c-aaf1-c992150a9c11/download/fr_mesh20m_10nd1_2025.7z",
+   "size": 8189650,
+   "last_modified": "2026-04-23T00:40:04.726079",
+   "created": "2026-04-23T00:40:05.079516"
+  },
+  {
+   "name": "fr_mesh20m_10ND2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/900f70b6-620c-4863-96f6-cd3967a54286/download/fr_mesh20m_10nd2_2025.7z",
+   "size": 7453186,
+   "last_modified": "2026-04-23T00:40:13.061156",
+   "created": "2026-04-23T00:40:13.454675"
+  },
+  {
+   "name": "fr_mesh20m_10ND3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/62786d26-8651-493d-bacf-d8ec90546c6e/download/fr_mesh20m_10nd3_2025.7z",
+   "size": 7945412,
+   "last_modified": "2026-04-23T00:40:22.281172",
+   "created": "2026-04-23T00:40:22.618892"
+  },
+  {
+   "name": "fr_mesh20m_10ND4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/75a16bf3-2da5-4895-88d5-1fe0e9724d9b/download/fr_mesh20m_10nd4_2025.7z",
+   "size": 7792401,
+   "last_modified": "2026-04-23T00:40:30.679506",
+   "created": "2026-04-23T00:40:31.028478"
+  },
+  {
+   "name": "fr_mesh20m_10NE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3f81acb8-1bc2-4f4c-9436-8a4784a9c51d/download/fr_mesh20m_10ne1_2025.7z",
+   "size": 7785032,
+   "last_modified": "2026-04-23T00:40:39.116638",
+   "created": "2026-04-23T00:40:39.462540"
+  },
+  {
+   "name": "fr_mesh20m_10NE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/bf77e16f-9259-4314-bfaf-54570e935aa9/download/fr_mesh20m_10ne2_2025.7z",
+   "size": 7796858,
+   "last_modified": "2026-04-23T00:40:48.613152",
+   "created": "2026-04-23T00:40:48.954315"
+  },
+  {
+   "name": "fr_mesh20m_10NE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ce5023d0-7283-484c-8fe5-bd531cc6cd74/download/fr_mesh20m_10ne3_2025.7z",
+   "size": 8454169,
+   "last_modified": "2026-04-23T00:40:59.636725",
+   "created": "2026-04-23T00:41:00.492418"
+  },
+  {
+   "name": "fr_mesh20m_10NE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b9b4aafd-67bc-4468-9011-4ed2315499f0/download/fr_mesh20m_10ne4_2025.7z",
+   "size": 8407327,
+   "last_modified": "2026-04-23T00:41:09.633807",
+   "created": "2026-04-23T00:41:09.990513"
+  },
+  {
+   "name": "fr_mesh20m_10NF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/670f4f34-9d99-4229-9420-b8f29fc5e456/download/fr_mesh20m_10nf1_2025.7z",
+   "size": 8423269,
+   "last_modified": "2026-04-23T00:41:21.465787",
+   "created": "2026-04-23T00:41:21.855348"
+  },
+  {
+   "name": "fr_mesh20m_10NF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/12f532cb-68f1-4f88-9125-dae068b06635/download/fr_mesh20m_10nf2_2025.7z",
+   "size": 9278608,
+   "last_modified": "2026-04-23T00:41:32.113980",
+   "created": "2026-04-23T00:41:32.466953"
+  },
+  {
+   "name": "fr_mesh20m_10NF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/315c4a32-110d-41b8-a634-2d9cc18e19a6/download/fr_mesh20m_10nf3_2025.7z",
+   "size": 8226285,
+   "last_modified": "2026-04-23T00:41:42.125240",
+   "created": "2026-04-23T00:41:42.492495"
+  },
+  {
+   "name": "fr_mesh20m_10NF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/4b11ea21-5203-42fe-bf3e-4e49224b2855/download/fr_mesh20m_10nf4_2025.7z",
+   "size": 6307468,
+   "last_modified": "2026-04-23T00:41:51.046751",
+   "created": "2026-04-23T00:41:51.493158"
+  },
+  {
+   "name": "fr_mesh20m_10NG1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0243507a-da40-48c1-9c90-c6cf4ddb89b6/download/fr_mesh20m_10ng1_2025.7z",
+   "size": 3476076,
+   "last_modified": "2026-04-23T00:41:57.464678",
+   "created": "2026-04-23T00:41:57.837012"
+  },
+  {
+   "name": "fr_mesh20m_10NG3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/87c2f0f8-53fb-4354-9c90-e1c371581ff8/download/fr_mesh20m_10ng3_2025.7z",
+   "size": 507227,
+   "last_modified": "2026-04-23T00:42:01.948457",
+   "created": "2026-04-23T00:42:02.789118"
+  },
+  {
+   "name": "fr_mesh20m_10OB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c6283323-f9cf-4ddd-b475-0933d65c67f5/download/fr_mesh20m_10ob2_2025.7z",
+   "size": 3686429,
+   "last_modified": "2026-04-23T00:42:08.342601",
+   "created": "2026-04-23T00:42:08.717705"
+  },
+  {
+   "name": "fr_mesh20m_10OB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b6f22e8f-ac29-4e69-9b13-c9339dce2650/download/fr_mesh20m_10ob3_2025.7z",
+   "size": 1784348,
+   "last_modified": "2026-04-23T00:42:13.670924",
+   "created": "2026-04-23T00:42:14.025700"
+  },
+  {
+   "name": "fr_mesh20m_10OB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6556b6ed-ffbd-4397-9f58-52aa0235efb5/download/fr_mesh20m_10ob4_2025.7z",
+   "size": 9280285,
+   "last_modified": "2026-04-23T00:42:23.462178",
+   "created": "2026-04-23T00:42:23.814156"
+  },
+  {
+   "name": "fr_mesh20m_10OC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/d99e1e65-709a-47ed-800b-482fc5ca97de/download/fr_mesh20m_10oc1_2025.7z",
+   "size": 9994447,
+   "last_modified": "2026-04-23T00:42:32.667348",
+   "created": "2026-04-23T00:42:33.018302"
+  },
+  {
+   "name": "fr_mesh20m_10OC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/bef016ee-70f8-4fa7-8657-ef4430abf10d/download/fr_mesh20m_10oc2_2025.7z",
+   "size": 8012195,
+   "last_modified": "2026-04-23T00:42:42.655472",
+   "created": "2026-04-23T00:42:43.011868"
+  },
+  {
+   "name": "fr_mesh20m_10OC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/be7e8923-8eba-44c3-8211-893957cd16a8/download/fr_mesh20m_10oc3_2025.7z",
+   "size": 10375846,
+   "last_modified": "2026-04-23T00:42:52.319909",
+   "created": "2026-04-23T00:42:52.749997"
+  },
+  {
+   "name": "fr_mesh20m_10OC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/36ac44fd-5fd3-499f-98e0-407c7325b31c/download/fr_mesh20m_10oc4_2025.7z",
+   "size": 7123148,
+   "last_modified": "2026-04-23T00:43:00.329248",
+   "created": "2026-04-23T00:43:00.856363"
+  },
+  {
+   "name": "fr_mesh20m_10OD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0a4a154a-1d9f-498b-be6c-095320ff0bb7/download/fr_mesh20m_10od1_2025.7z",
+   "size": 8416628,
+   "last_modified": "2026-04-23T00:43:08.489846",
+   "created": "2026-04-23T00:43:08.945205"
+  },
+  {
+   "name": "fr_mesh20m_10OD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6e5a3c4f-0167-4bbb-826c-7c741e82a0f9/download/fr_mesh20m_10od2_2025.7z",
+   "size": 9330388,
+   "last_modified": "2026-04-23T00:43:18.982429",
+   "created": "2026-04-23T00:43:19.349453"
+  },
+  {
+   "name": "fr_mesh20m_10OD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/194302d1-d8ad-4f8a-b0b8-4b85df91599f/download/fr_mesh20m_10od3_2025.7z",
+   "size": 8254510,
+   "last_modified": "2026-04-23T00:43:29.723334",
+   "created": "2026-04-23T00:43:30.093551"
+  },
+  {
+   "name": "fr_mesh20m_10OD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e4f172e4-9c62-4f21-9535-72aa9fc6649b/download/fr_mesh20m_10od4_2025.7z",
+   "size": 7948151,
+   "last_modified": "2026-04-23T00:43:40.374570",
+   "created": "2026-04-23T00:43:40.742652"
+  },
+  {
+   "name": "fr_mesh20m_10OE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/40d7b37c-01de-42e9-95d1-bdee4ed11650/download/fr_mesh20m_10oe1_2025.7z",
+   "size": 7885000,
+   "last_modified": "2026-04-23T00:43:50.712923",
+   "created": "2026-04-23T00:43:51.090783"
+  },
+  {
+   "name": "fr_mesh20m_10OE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/81664335-6d53-4f94-a4f2-92e6b0ee32b5/download/fr_mesh20m_10oe2_2025.7z",
+   "size": 8615126,
+   "last_modified": "2026-04-23T00:44:01.916603",
+   "created": "2026-04-23T00:44:02.968425"
+  },
+  {
+   "name": "fr_mesh20m_10OE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/24080143-af12-4866-8921-caa7d3db5b0a/download/fr_mesh20m_10oe3_2025.7z",
+   "size": 8383217,
+   "last_modified": "2026-04-23T00:44:12.889222",
+   "created": "2026-04-23T00:44:13.602841"
+  },
+  {
+   "name": "fr_mesh20m_10OE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/a88f3458-444c-4aeb-8a80-70b9a33241f8/download/fr_mesh20m_10oe4_2025.7z",
+   "size": 6330458,
+   "last_modified": "2026-04-23T00:44:22.748642",
+   "created": "2026-04-23T00:44:23.214420"
+  },
+  {
+   "name": "fr_mesh20m_10OF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c142b438-9860-4a64-bc41-2749219f0c1d/download/fr_mesh20m_10of1_2025.7z",
+   "size": 8221819,
+   "last_modified": "2026-04-23T00:44:33.983805",
+   "created": "2026-04-23T00:44:34.839245"
+  },
+  {
+   "name": "fr_mesh20m_10OF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ec0d5654-57d5-4c02-9bdf-49806f6e78e0/download/fr_mesh20m_10of2_2025.7z",
+   "size": 2486813,
+   "last_modified": "2026-04-23T00:44:40.748346",
+   "created": "2026-04-23T00:44:41.134405"
+  },
+  {
+   "name": "fr_mesh20m_10OF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/46f56e67-7e27-488f-8aaf-53cf9ecb8144/download/fr_mesh20m_10of3_2025.7z",
+   "size": 7951785,
+   "last_modified": "2026-04-23T00:44:50.672355",
+   "created": "2026-04-23T00:44:51.500188"
+  },
+  {
+   "name": "fr_mesh20m_10OF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0ae6e8c4-da80-4232-b6c4-6d75ab8a9ea8/download/fr_mesh20m_10of4_2025.7z",
+   "size": 417479,
+   "last_modified": "2026-04-23T00:44:55.680814",
+   "created": "2026-04-23T00:44:56.092747"
+  },
+  {
+   "name": "fr_mesh20m_10PB1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c0bba939-3ee9-486f-8a69-1ecacf8792b6/download/fr_mesh20m_10pb1_2025.7z",
+   "size": 6163281,
+   "last_modified": "2026-04-23T00:45:02.748379",
+   "created": "2026-04-23T00:45:03.527855"
+  },
+  {
+   "name": "fr_mesh20m_10PB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/09a3e5cf-7584-4c5d-a4cf-9665de2b2799/download/fr_mesh20m_10pb2_2025.7z",
+   "size": 12507019,
+   "last_modified": "2026-04-23T00:45:14.044600",
+   "created": "2026-04-23T00:45:14.481890"
+  },
+  {
+   "name": "fr_mesh20m_10PB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0a16aa7c-1375-423a-801d-a8d73ada37e7/download/fr_mesh20m_10pb3_2025.7z",
+   "size": 34840,
+   "last_modified": "2026-04-23T00:45:19.657448",
+   "created": "2026-04-23T00:45:20.049256"
+  },
+  {
+   "name": "fr_mesh20m_10PB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ea1e964b-eef4-4a41-9247-4d267a56dd37/download/fr_mesh20m_10pb4_2025.7z",
+   "size": 7693308,
+   "last_modified": "2026-04-23T00:45:27.556583",
+   "created": "2026-04-23T00:45:27.942876"
+  },
+  {
+   "name": "fr_mesh20m_10PC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/8d8e3510-1c68-45c0-8ad0-8258373392fe/download/fr_mesh20m_10pc1_2025.7z",
+   "size": 8993071,
+   "last_modified": "2026-04-23T00:45:36.657861",
+   "created": "2026-04-23T00:45:37.149547"
+  },
+  {
+   "name": "fr_mesh20m_10PC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/465b1fb7-f25f-4d1a-8705-0f356861c7f3/download/fr_mesh20m_10pc2_2025.7z",
+   "size": 9312308,
+   "last_modified": "2026-04-23T00:45:47.963476",
+   "created": "2026-04-23T00:45:48.704724"
+  },
+  {
+   "name": "fr_mesh20m_10PC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/572092a2-3dc1-4a0f-b4ec-b2c05f345ca1/download/fr_mesh20m_10pc3_2025.7z",
+   "size": 9154501,
+   "last_modified": "2026-04-23T00:45:58.316141",
+   "created": "2026-04-23T00:45:58.944370"
+  },
+  {
+   "name": "fr_mesh20m_10PC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/75c68d30-bd44-49f0-a869-946bb7ff0dc6/download/fr_mesh20m_10pc4_2025.7z",
+   "size": 7469510,
+   "last_modified": "2026-04-23T00:46:08.735418",
+   "created": "2026-04-23T00:46:09.292447"
+  },
+  {
+   "name": "fr_mesh20m_10PD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2688e1b5-5361-4b73-ba91-70286bb38fda/download/fr_mesh20m_10pd1_2025.7z",
+   "size": 8158338,
+   "last_modified": "2026-04-23T00:46:18.621362",
+   "created": "2026-04-23T00:46:19.031158"
+  },
+  {
+   "name": "fr_mesh20m_10PD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e407e39b-6a09-4723-b0d7-0f68df063bf0/download/fr_mesh20m_10pd2_2025.7z",
+   "size": 7898773,
+   "last_modified": "2026-04-23T00:46:27.608102",
+   "created": "2026-04-23T00:46:28.013953"
+  },
+  {
+   "name": "fr_mesh20m_10PD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5348f137-590c-4791-a19b-777f1ce16213/download/fr_mesh20m_10pd3_2025.7z",
+   "size": 7921614,
+   "last_modified": "2026-04-23T00:46:37.220457",
+   "created": "2026-04-23T00:46:37.719645"
+  },
+  {
+   "name": "fr_mesh20m_10PD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e44158b3-4451-4bf6-87d2-55820ff0d926/download/fr_mesh20m_10pd4_2025.7z",
+   "size": 8226701,
+   "last_modified": "2026-04-23T00:46:46.429323",
+   "created": "2026-04-23T00:46:46.847696"
+  },
+  {
+   "name": "fr_mesh20m_10PE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ef7c4baf-d011-4c4e-81a2-8af8a0fb644e/download/fr_mesh20m_10pe1_2025.7z",
+   "size": 5906716,
+   "last_modified": "2026-04-23T00:46:55.640078",
+   "created": "2026-04-23T00:46:56.072853"
+  },
+  {
+   "name": "fr_mesh20m_10PE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/64a3778e-5cba-4ddc-b0b8-f922c72f3051/download/fr_mesh20m_10pe2_2025.7z",
+   "size": 6441659,
+   "last_modified": "2026-04-23T00:47:04.909173",
+   "created": "2026-04-23T00:47:05.588845"
+  },
+  {
+   "name": "fr_mesh20m_10PE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/efd75245-ed7a-43c5-8ac2-855b97b42b60/download/fr_mesh20m_10pe3_2025.7z",
+   "size": 8573877,
+   "last_modified": "2026-04-23T00:47:15.724688",
+   "created": "2026-04-23T00:47:16.138159"
+  },
+  {
+   "name": "fr_mesh20m_10PE4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/49c96228-85b7-446e-8e1f-e62f86c3a2ee/download/fr_mesh20m_10pe4_2025.7z",
+   "size": 5861031,
+   "last_modified": "2026-04-23T00:47:23.391451",
+   "created": "2026-04-23T00:47:23.809707"
+  },
+  {
+   "name": "fr_mesh20m_10PF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/eb91f8d6-97b6-4448-970c-a0fcf0224088/download/fr_mesh20m_10pf1_2025.7z",
+   "size": 8019759,
+   "last_modified": "2026-04-23T00:47:32.425898",
+   "created": "2026-04-23T00:47:32.856937"
+  },
+  {
+   "name": "fr_mesh20m_10PF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/c59a59d1-eec3-461a-9336-d74ac0c55561/download/fr_mesh20m_10pf2_2025.7z",
+   "size": 219753,
+   "last_modified": "2026-04-23T00:47:36.901513",
+   "created": "2026-04-23T00:47:37.328032"
+  },
+  {
+   "name": "fr_mesh20m_10PF3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/944b7e36-07bd-4378-86a6-e02c8b1d317f/download/fr_mesh20m_10pf3_2025.7z",
+   "size": 7225487,
+   "last_modified": "2026-04-23T00:47:44.480775",
+   "created": "2026-04-23T00:47:44.911573"
+  },
+  {
+   "name": "fr_mesh20m_10PF4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3917c56d-70b1-4770-95a7-dd9f5398379e/download/fr_mesh20m_10pf4_2025.7z",
+   "size": 271983,
+   "last_modified": "2026-04-23T00:47:49.912858",
+   "created": "2026-04-23T00:47:50.628634"
+  },
+  {
+   "name": "fr_mesh20m_10QB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3b31b0c6-89af-46f4-9507-6e46d736307b/download/fr_mesh20m_10qb2_2025.7z",
+   "size": 1833685,
+   "last_modified": "2026-04-23T00:47:55.079743",
+   "created": "2026-04-23T00:47:55.513798"
+  },
+  {
+   "name": "fr_mesh20m_10QB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/481deded-8419-46ca-a6ea-0e01eabb7713/download/fr_mesh20m_10qb3_2025.7z",
+   "size": 100024,
+   "last_modified": "2026-04-23T00:47:59.062977",
+   "created": "2026-04-23T00:47:59.881106"
+  },
+  {
+   "name": "fr_mesh20m_10QB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/1f4a1ada-0744-4300-ad06-8972109263e1/download/fr_mesh20m_10qb4_2025.7z",
+   "size": 7183685,
+   "last_modified": "2026-04-23T00:48:06.060738",
+   "created": "2026-04-23T00:48:06.733674"
+  },
+  {
+   "name": "fr_mesh20m_10QC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b094d8f0-07a4-4d3b-96f0-864094b7babc/download/fr_mesh20m_10qc1_2025.7z",
+   "size": 9168225,
+   "last_modified": "2026-04-23T00:48:16.847220",
+   "created": "2026-04-23T00:48:17.325957"
+  },
+  {
+   "name": "fr_mesh20m_10QC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/45bf7631-cdc3-4d34-9137-f414bb35cdbe/download/fr_mesh20m_10qc2_2025.7z",
+   "size": 7021763,
+   "last_modified": "2026-04-23T00:48:26.786785",
+   "created": "2026-04-23T00:48:27.226359"
+  },
+  {
+   "name": "fr_mesh20m_10QC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/7e6d9565-9517-43b5-b64f-5faa4391cf84/download/fr_mesh20m_10qc3_2025.7z",
+   "size": 8556872,
+   "last_modified": "2026-04-23T00:48:38.476116",
+   "created": "2026-04-23T00:48:38.940271"
+  },
+  {
+   "name": "fr_mesh20m_10QC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/96acb774-33fb-4e92-a869-665fdf92e97c/download/fr_mesh20m_10qc4_2025.7z",
+   "size": 7540627,
+   "last_modified": "2026-04-23T00:48:49.113925",
+   "created": "2026-04-23T00:48:49.566083"
+  },
+  {
+   "name": "fr_mesh20m_10QD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0b7488ab-9b18-4dc6-abd9-ed89249325fe/download/fr_mesh20m_10qd1_2025.7z",
+   "size": 7367289,
+   "last_modified": "2026-04-23T00:48:58.596256",
+   "created": "2026-04-23T00:48:59.047536"
+  },
+  {
+   "name": "fr_mesh20m_10QD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/34471c5b-1502-4300-89f1-6fb54f79294a/download/fr_mesh20m_10qd2_2025.7z",
+   "size": 8481272,
+   "last_modified": "2026-04-23T00:49:07.787582",
+   "created": "2026-04-23T00:49:08.527117"
+  },
+  {
+   "name": "fr_mesh20m_10QD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/68c608d9-eb0e-49a9-8e0c-42724ea334ed/download/fr_mesh20m_10qd3_2025.7z",
+   "size": 8185303,
+   "last_modified": "2026-04-23T00:49:17.963554",
+   "created": "2026-04-23T00:49:18.665266"
+  },
+  {
+   "name": "fr_mesh20m_10QD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/43073b91-4564-4945-add4-7af50865c13e/download/fr_mesh20m_10qd4_2025.7z",
+   "size": 8055992,
+   "last_modified": "2026-04-23T00:49:27.930123",
+   "created": "2026-04-23T00:49:28.535532"
+  },
+  {
+   "name": "fr_mesh20m_10QE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/9d5b8f3a-99b1-4af5-bf37-803768e6d12f/download/fr_mesh20m_10qe1_2025.7z",
+   "size": 6179525,
+   "last_modified": "2026-04-23T00:49:36.394743",
+   "created": "2026-04-23T00:49:37.169521"
+  },
+  {
+   "name": "fr_mesh20m_10QE2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0f03f1a7-6208-4b78-9401-47a73773b954/download/fr_mesh20m_10qe2_2025.7z",
+   "size": 673352,
+   "last_modified": "2026-04-23T00:49:41.724532",
+   "created": "2026-04-23T00:49:42.489280"
+  },
+  {
+   "name": "fr_mesh20m_10QE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6432fd62-c2e3-404f-9431-0e2b0c6d91f2/download/fr_mesh20m_10qe3_2025.7z",
+   "size": 3509081,
+   "last_modified": "2026-04-23T00:49:47.852252",
+   "created": "2026-04-23T00:49:48.563373"
+  },
+  {
+   "name": "fr_mesh20m_10QF1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/714e909d-14c9-43b0-804d-8c93ab8f676a/download/fr_mesh20m_10qf1_2025.7z",
+   "size": 1617270,
+   "last_modified": "2026-04-23T00:49:53.105251",
+   "created": "2026-04-23T00:49:53.569553"
+  },
+  {
+   "name": "fr_mesh20m_10QF2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b31551a8-29c1-44f3-a6da-760f083b63c0/download/fr_mesh20m_10qf2_2025.7z",
+   "size": 512267,
+   "last_modified": "2026-04-23T00:49:57.929355",
+   "created": "2026-04-23T00:49:58.391234"
+  },
+  {
+   "name": "fr_mesh20m_10RB1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/5c383b00-2a4d-4bed-9b79-c80fd7706304/download/fr_mesh20m_10rb1_2025.7z",
+   "size": 920438,
+   "last_modified": "2026-04-23T00:50:02.405901",
+   "created": "2026-04-23T00:50:03.126642"
+  },
+  {
+   "name": "fr_mesh20m_10RB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/b11ccf4b-0fa2-4ddc-b252-493d392f0484/download/fr_mesh20m_10rb2_2025.7z",
+   "size": 8621436,
+   "last_modified": "2026-04-23T00:50:12.473492",
+   "created": "2026-04-23T00:50:12.941557"
+  },
+  {
+   "name": "fr_mesh20m_10RB3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6e3e56d9-4e9c-4b80-9e3c-d0a0e8bcf7f6/download/fr_mesh20m_10rb3_2025.7z",
+   "size": 1347537,
+   "last_modified": "2026-04-23T00:50:17.704618",
+   "created": "2026-04-23T00:50:18.202729"
+  },
+  {
+   "name": "fr_mesh20m_10RB4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/e36e1bec-be80-4e62-bdc7-4553c89e9ccd/download/fr_mesh20m_10rb4_2025.7z",
+   "size": 8475448,
+   "last_modified": "2026-04-23T00:50:26.318568",
+   "created": "2026-04-23T00:50:27.066541"
+  },
+  {
+   "name": "fr_mesh20m_10RC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/00d345f2-92f5-4183-829b-cf3a2bbba9e1/download/fr_mesh20m_10rc1_2025.7z",
+   "size": 7463008,
+   "last_modified": "2026-04-23T00:50:37.899007",
+   "created": "2026-04-23T00:50:38.394531"
+  },
+  {
+   "name": "fr_mesh20m_10RC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/eaab4d49-a7e1-4e60-95bd-3519827f4ccf/download/fr_mesh20m_10rc2_2025.7z",
+   "size": 7371594,
+   "last_modified": "2026-04-23T00:50:47.686227",
+   "created": "2026-04-23T00:50:48.317730"
+  },
+  {
+   "name": "fr_mesh20m_10RC3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/2d0330cb-b2bb-4cf3-bb81-28c699469b22/download/fr_mesh20m_10rc3_2025.7z",
+   "size": 7672129,
+   "last_modified": "2026-04-23T00:50:57.126576",
+   "created": "2026-04-23T00:50:57.903641"
+  },
+  {
+   "name": "fr_mesh20m_10RC4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/ac9a214a-bd38-4a47-b2ce-42a7fac0d3e2/download/fr_mesh20m_10rc4_2025.7z",
+   "size": 5026352,
+   "last_modified": "2026-04-23T00:51:05.862347",
+   "created": "2026-04-23T00:51:06.460960"
+  },
+  {
+   "name": "fr_mesh20m_10RD1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/0d03e5db-efab-4ccf-92f1-d141623a2ecf/download/fr_mesh20m_10rd1_2025.7z",
+   "size": 8881642,
+   "last_modified": "2026-04-23T00:51:17.500191",
+   "created": "2026-04-23T00:51:18.126116"
+  },
+  {
+   "name": "fr_mesh20m_10RD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3a734378-6b16-4a61-a684-7d981c7f69b6/download/fr_mesh20m_10rd2_2025.7z",
+   "size": 8044986,
+   "last_modified": "2026-04-23T00:51:28.088595",
+   "created": "2026-04-23T00:51:28.920131"
+  },
+  {
+   "name": "fr_mesh20m_10RD3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/fc1cad67-2e10-4279-8be7-705bbbe7acc4/download/fr_mesh20m_10rd3_2025.7z",
+   "size": 2639474,
+   "last_modified": "2026-04-23T00:51:35.280017",
+   "created": "2026-04-23T00:51:35.765229"
+  },
+  {
+   "name": "fr_mesh20m_10RD4_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/52bd3c42-dbc0-4550-865d-a226705305f8/download/fr_mesh20m_10rd4_2025.7z",
+   "size": 7299932,
+   "last_modified": "2026-04-23T00:51:43.926305",
+   "created": "2026-04-23T00:51:44.422238"
+  },
+  {
+   "name": "fr_mesh20m_10RE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3ceea508-66a4-4e70-ad24-d85c2e06e952/download/fr_mesh20m_10re1_2025.7z",
+   "size": 2937726,
+   "last_modified": "2026-04-23T00:51:50.858608",
+   "created": "2026-04-23T00:51:51.412698"
+  },
+  {
+   "name": "fr_mesh20m_10RE3_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/6d816ba2-a4d8-4da7-9e73-23f8223e6c91/download/fr_mesh20m_10re3_2025.7z",
+   "size": 1957459,
+   "last_modified": "2026-04-23T00:51:57.174747",
+   "created": "2026-04-23T00:51:57.679630"
+  },
+  {
+   "name": "fr_mesh20m_10SB2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/3a054a2e-7845-495b-a804-1e9570880785/download/fr_mesh20m_10sb2_2025.7z",
+   "size": 734442,
+   "last_modified": "2026-04-23T00:52:02.042641",
+   "created": "2026-04-23T00:52:02.859625"
+  },
+  {
+   "name": "fr_mesh20m_10SC1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/16813439-d03c-4b10-97ab-0e64c0f95072/download/fr_mesh20m_10sc1_2025.7z",
+   "size": 4223945,
+   "last_modified": "2026-04-23T00:52:09.586118",
+   "created": "2026-04-23T00:52:10.080978"
+  },
+  {
+   "name": "fr_mesh20m_10SC2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/011266c6-5087-4d68-9a31-844b297a23b7/download/fr_mesh20m_10sc2_2025.7z",
+   "size": 2337533,
+   "last_modified": "2026-04-23T00:52:16.419548",
+   "created": "2026-04-23T00:52:16.916855"
+  },
+  {
+   "name": "fr_mesh20m_10SD2_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/bc8c5c05-ed51-4efb-b7f2-fb6492dd5cf7/download/fr_mesh20m_10sd2_2025.7z",
+   "size": 1691558,
+   "last_modified": "2026-04-23T00:52:21.966236",
+   "created": "2026-04-23T00:52:22.552676"
+  },
+  {
+   "name": "fr_mesh20m_10SE1_2025.7z",
+   "format": "7z",
+   "url": "https://www.geospatial.jp/ckan/dataset/01d35024-814d-4dfe-b8f4-8f9d19affa92/resource/d0a0d263-b8e9-4bbc-9772-8aed0baf3c1c/download/fr_mesh20m_10se1_2025.7z",
+   "size": 330611,
+   "last_modified": "2026-04-23T00:52:26.990654",
+   "created": "2026-04-23T00:52:27.805866"
+  }
+ ]
+}
