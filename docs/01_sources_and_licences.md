@@ -36,7 +36,7 @@ Caveat kept for the card: Biodic's site-wide rules are PDL1.0 with the 別紙 li
 | dates | CKAN record created 2025-12-03, metadata modified 2026-07-27; the `.7z` files were last modified 2026-04-23; data definition dated 2026-03-23. The data are named `_2025`. The record has no version field. Originals were collected in FY2024 (令和6年度); each row carries its own 森林簿年月日 and 計測年月日 | CKAN, terms of use |
 | spatial extent | land of national forest and of regional-plan private forest only (not all land) | terms of use |
 | resolution | 20 m mesh polygons | notes |
-| attributes (data definition) | fid, 林種, 森林簿樹種１, 森林簿樹種２, 森林簿樹種３, 林齢, 森林簿年月日, 樹冠高, レーザ解析樹種, 立木密度, 平均標高, 計測年月日. No 市町村 column and no 民国別 column in the mesh. 民国別 and 市町村 exist in the separate 森林計画対象森林レイヤ (`fr_layer_<pref>_2025`, per prefecture) | evidence/docs/data_dictionary_20260323.pdf |
+| attributes (data definition) | fid, 林種, 森林簿樹種１, 森林簿樹種２, 森林簿樹種３, 林齢, 森林簿年月日, 樹冠高, レーザ解析樹種, 立木密度, 平均標高, 計測年月日. No 市町村 column and no 民国別 column in the mesh. 民国別 and 市町村 exist in the separate 森林計画対象森林レイヤ (`fr_layer_<pref>_2025`, per prefecture) | the data definition PDF of the record (not redistributed here, see the last section) |
 | note on names | the user asked for 解析樹種; the column is named レーザ解析樹種 in the definition | |
 | nulls by design | where the forest register or the laser data do not exist, the attribute is Null | CKAN notes |
 | licence | The page and its licence resource name 公共データ利用規約 第1.0版 (PDL1.0) with a Forestry Agency 重要情報 PDF. The CKAN `license_id` field says `ogl` with the title 政府標準利用規約 (the predecessor of PDL1.0); the two disagree on the label but both are CC BY compatible. Recorded as PDL1.0, the one that the page text and the 重要情報 PDF state | evidence/ckan_mesh_10.json; important_notes PDF |
@@ -52,3 +52,7 @@ The mesh is an edited product of the Forestry Agency built from prefectural regi
 - Akita boundary used for clipping: to be taken from an official source (KSJ N03) and used only as a cutter; it is not republished.
 - Prefecture-specific conditions on the Akita register itself: none stated in the Forestry Agency terms. Not checked on Akita Prefecture's own pages (listed as unknown).
 - The vegetation record has no 重要情報 PDF; none was found.
+
+## Note on files not kept in this repository
+
+The data definition PDF (データ定義書, 令和8年3月23日版) carries the notice 本書の無断転載、複製を禁じます, so it is not copied into the datasets and was removed from this repository after the first commit (it remains in the git history of commit 10e80df). Its attribute table was read from the official file and is described in the text above. The sheet-index PDF was removed too. Their sha256 as downloaded on 2026-10-28 are in `evidence/docs/NOT_REDISTRIBUTED.sha256`. The terms of use and the 重要情報 PDFs are kept as the evidence of the licence.
